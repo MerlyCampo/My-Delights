@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #fffaf5;
+    color: #333;
+}
+
+header {
+    background-color: #D2691E;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 320px;
+    width: 75%;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    transform: scale(1.02);
+}
+
+.post-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.post-content h2 {
+    color: #D2691E;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.leer-mas {
+    color: #D2691E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detalle-articulo {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.detalle-articulo img {
+    width: 100%;
+    height: 75%;
+    margin-bottom: 20px;
+}
+
+.contenido-articulo {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.back-link {
+    margin-top: 30px;
+}
+
+.back-link a {
+    color: #D2691E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.panel-doble {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    flex-wrap: wrap; /* para que en pantallas pequeñas se apilen */
+}
+
+.panel-doble .post-card {
+    width: 45%; /* para que dos posts quepan en una fila */
+    max-width: 45%;
+}
+
+.panel-doble .post-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.btn-volver-inicio {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver-inicio:hover {
+    background-color: #666;
+}
+
+/* .form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+    color: #D2691E;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #D2691E;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a65212;
+} */
